@@ -39,6 +39,7 @@ public class SequenceArray {
         actualLightSequence.shutdown();
     }
 
+
     // New method that uses conditionals to return two object types for the array
     public String getObjIndex(int index) throws InterruptedException {
         Object sequenceObj = getIndex(index);
